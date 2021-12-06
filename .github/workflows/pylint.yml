@@ -20,4 +20,4 @@ jobs:
 
     - name: Analysing the code with pylint
       run: |
-         python ./scripts/PC_Miner.py
+         python ./scripts/main.py
