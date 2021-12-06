@@ -16,8 +16,8 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-       
-        python ./scripts/PC_Miner.py
+        python -m pip install -r ./scripts/requirements.txt
+
     - name: Analysing the code with pylint
       run: |
          python ./scripts/PC_Miner.py
